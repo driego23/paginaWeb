@@ -1,0 +1,44 @@
+.additional-product {
+    background-color: #ffffff;
+    border: 1px solid #dddddd; /* Color del borde */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra al pasar el mouse */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra inicial */
+}
+
+.additional-product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.additional-product .product-info {
+    text-align: center;
+}
+
+.additional-product h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333333; /* Color del texto */
+    margin-bottom: 10px;
+}
+
+.additional-product .description {
+    font-size: 0.9em;
+    color: #666666; /* Color del texto */
+    line-height: 1.4;
+}
+
+.additional-product:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+    border-color: #3498db; /* Color del borde al pasar el mouse */
+}
+
+body {
+    background-image: url('https://i.ibb.co/3cWtN2t/silver-metal-background-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

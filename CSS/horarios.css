@@ -1,0 +1,38 @@
+#business-hours {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#business-hours h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.business-hours-container {
+    max-width: 600px; /* Limita el ancho del contenido para que no se extienda demasiado */
+    margin: 0 auto; /* Centra horizontalmente el contenido */
+}
+
+.business-hours-container h3 {
+    font-size: 20px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.business-hours-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.business-hours-container li {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.business-hours-container li strong {
+    font-weight: bold; 
+}
