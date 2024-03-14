@@ -1,0 +1,30 @@
+@import url('header.css');
+@import url('footer.css');
+@import url('section.css');
+@import url('adicional_products.css');
+
+.regresar-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .regresar-btn:hover {
+    background-color: #0056b3;
+  }
+
+#payment-methods {
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+
+.payment-methods-container img {
+  max-width: 100%;
+}
