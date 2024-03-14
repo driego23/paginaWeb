@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="CSS/form.css">
+<title>Formulario de Compra</title>
+
+<link rel="stylesheet" href="CSS/form.css">
+<title>Formulario de Compra</title>
+<link rel="icon" href="https://i.ibb.co/k5mJSNN/icon-form.png" type="image/png">
+</head>
+<body>
+  <form action="/submit_form" method="post" 
+  onsubmit="alert('¡Gracias por tu compra! Te enviaremos más detalles al correo electrónico proporcionado.');">
+<form action="/submit_form" method="post">
+  <h3>Detalles de facturación</h3>
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" value="Pepe" required><br><br>
+
+  <label for="apellidos">Apellidos:</label><br>
+  <input type="text" id="apellidos" name="apellidos" value="Tellado Garcia"><br><br>
+  
+  <label for="pais">País / Región:</label><br>
+  <input type="text" id="pais" name="pais" value="Colombia" required><br><br>
+
+  <label for="tipo_factura">Tipo de factura:</label><br>
+  <select id="tipo_factura" name="tipo_factura">
+    <option value="factura">Factura Fisica</option>
+    <option value="otro">Factura Electronica</option>
+  </select><br><br>
+
+  <label for="metodo_pago">Método de Pago::</label><br>
+  <select id="metodo_pago" name="metodo_pago">
+    <option value="paypal">Paypal</option>
+    <option value="visa">Visa</option>
+    <option value="mastercard">MasterCard</option>
+    <option value="maestro">Maestro</option>
+    <option value="american_express">American Express</option>
+  </select><br><br>
+  
+  <label for="direccion">Dirección:</label><br>
+  <input type="text" id="direccion" name="direccion" value="Ninarillo 14" required><br><br>
+  
+  <label for="codigo_postal">Código postal:</label><br>
+  <input type="text" id="codigo_postal" name="codigo_postal" value="055422" required><br><br>
+  
+  <label for="localidad">Localidad / Ciudad:</label><br>
+  <input type="text" id="localidad" name="localidad" value="Avila" required><br><br>
+  
+  <label for="provincia">Provincia:</label><br>
+  <input type="text" id="provincia" name="provincia" value="Avila" required><br><br>
+  
+  <label for="telefono">Teléfono (opcional):</label><br>
+  <input type="tel" id="telefono" name="telefono" value="644747747"><br><br>
+  
+  <label for="email">Dirección de correo electrónico:</label><br>
+  <input type="email" id="email" name="email" value="admin@admin" required><br><br>
+  
+  <input type="checkbox" id="diferente_direccion" name="diferente_direccion">
+  <label for="diferente_direccion">Enviar a una dirección diferente?</label><br><br>
+  
+  <textarea id="notas_pedido" name="notas_pedido" rows="4" cols="50" placeholder="Notas del pedido [opcional]"></textarea><br><br>
+  
+  <input type="submit" value="REALIZAR EL PEDIDO">
+
+</form>
